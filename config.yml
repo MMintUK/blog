@@ -1,0 +1,48 @@
+baseURL: "https://mmint.uk"
+languageCode: en-uk
+title: "MMINT.UK"
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Welcome to MMINT.UK | Paintings | Illustration | Murals | Silkscreen Prints"
+    Content: A collection of works by Artist Rob Green that explore the mythological, political and philosophical concepts through a lens of pop art and street art.
+  socialIcons:
+    - name: instagram
+      url: "https://www.instagram.com/mmint.uk"
+    - name: twitter
+      url: "https://twitter.com/mmint_uk"
+    - name: facebook
+      url: "https://www.facebook.com/mmint.art"   
+    - name: pinterest
+      url: "https://www.pinterest.co.uk/mmint_uk/" 
+    - name: youtube
+      url: "https://www.youtube.com/channel/UCZRLKnh7lil5POK1J6J3x5w"
+  env: production             
+  defaultTheme: dark  
+          
+
+  cover:
+    linkFullImages: false
+
+  Showbreadcrumbs: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true  
+
+menu:
+  main:
+    - indentifer: shop
+      name: shop
+      url: https://shop.mmint.uk
+      weight: 10
+    - indentifer: categories
+      name: categories
+      url: /categories/
+      weight: 20      
+    - indentifer: tags
+      name: tags
+      url: /tags/
+      weight: 30  
+      
