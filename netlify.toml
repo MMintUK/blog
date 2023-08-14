@@ -1,8 +1,8 @@
+# example netlify.toml
 [build]
   command = "hugo"
-  context = "production"
+  functions = "netlify/functions"
   publish = "public"
 
-[context.production.environment]
+[build.environment]
   HUGO_VERSION = "0.104.3"
-  HUGO_ENV = "production"
